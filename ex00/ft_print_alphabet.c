@@ -24,6 +24,7 @@ void ft_print_alphabet(void)
     ft_putchar(letter);
     letter++;
   }
+  
   ft_putchar('\n');
 }
 
