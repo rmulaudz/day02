@@ -12,11 +12,7 @@
 
 #include <unistd.h>
 
-int ft_putchar(char c) 
-{ 
-	write(STDOUT_FILENO, &c, 1); 
-	return (0);
-}
+int ft_putchar(char c);
 
 void ft_print_alphabet(void) 
 {
